@@ -1,0 +1,337 @@
+* {
+	margin: 1px;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+/* INICIO MENU*/
+nav a {
+	text-decoration: none;
+	color: inherit;
+	font-size: 14px;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	width: 150px;
+	height: 30px;
+	padding: 5px 10px;
+	background-color: orange;
+	border: 1px solid #000;
+	text-align: center;
+	color: #fff;
+	position: relative;
+}
+
+nav li:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+nav li>ul {
+	display: none;
+}
+
+nav li:hover>ul {
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+}
+
+
+
+/* FINMENU*/
+
+.menu {
+
+
+	width: 100;
+	height: 70px;
+}
+
+.busqueda {
+	text-align: right;
+	background: white;
+	width: 300px;
+	height: 150px;
+
+}
+
+.contenedor-general {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.seccion-1 {
+	margin: 10px 20px;
+	padding: 20px;
+	display: flex;
+	width: 1063px;
+	height: 300px;
+	background-color: burlywood;
+
+
+}
+
+.p1 {
+
+	display: inline-flex;
+	width: 250px;
+	height: 270px;
+	border-style: dotted;
+
+	background-color: red;
+
+}
+
+.imagen1 {
+    margin: 6px -203px 18px;
+    width: 469px;
+    height: 26px;
+    float: right;
+    clear: both;
+}
+
+.descripcion1 {
+
+	display: inline;
+	float: right;
+	margin: 150px 5px 2px;
+	width: 278px;
+	height: 100px;
+	background-color: azure;
+
+
+}
+
+.seccion-2 {
+
+	margin: 10px 20px;
+	padding: 20px;
+	display: flex;
+	width: 80%;
+	width: 1063px;
+	height: 383px;
+	background-color: purple;
+}
+
+.interno-2A {
+
+	margin: 51px 18px 11px;
+	display: flex;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: justify;
+	background-color: khaki;
+
+	width: 513px;
+	height: 264px;
+
+	display: inline;
+
+
+}
+
+.interno-2Ap {
+
+	text-align: left;
+}
+
+.interno-2At {
+
+	text-align: left;
+	width: 500px;
+	height: 260px;
+	background-color: blue;
+}
+
+.interno-2b {
+	margin: 50px 38px 1pc;
+	width: 421px;
+	height: 267px;
+	line-height: 1.5;
+	/*! background-color: blue; */
+
+	margin-right: 17px;
+}
+
+.img {
+
+	width: 80%;
+	margin: 0px 20px;
+
+
+
+
+}
+
+.portada {
+	margin: 0px 20px;
+	display: flex;
+
+}
+
+
+.parrafos {
+	font-size: 18px;
+	margin: 0px 20px;
+	line-height: 1.5;
+	text-align: justify;
+	background: #B6CFB6;
+
+}
+
+.parrafos2 {
+	font-size: 18px;
+	margin: 5px 20px;
+	line-height: 1;
+	text-align: justify;
+	background: green;
+	width: 80%;
+	font-size: 2rem;
+	list-style-type: upper-roman;
+
+}
+
+.interno-1 {
+
+
+	margin: 5px auto;
+}
+
+.interno-2 {
+
+	padding: 20px;
+	display: flex;
+	margin: 5px auto;
+}
+
+
+.fotter {
+	padding: 20px;
+	display: flex;
+
+	margin: 1px 36px auto;
+
+	width: 1090px;
+	height: 160px;
+
+}
+
+.notaPies {
+	margin: 0px 20px;
+	display: flex;
+	background-color: aquamarine;
+	width: 1222px;
+	height: 126px;
+
+}
+
+input {
+
+
+	margin-top: -3px;
+	margin-right: 46px;
+	margin-bottom: -3px;
+	margin-left: -46px;
+	width: 100px;
+	height: 33px;
+	border: blue 5px solid;
+}
+
+
+
+.menu {
+	margin: 0px 1px;
+	display: flex;
+	line-height: 1.5;
+	width: 312px;
+	height: 153px;
+
+
+}
+
+.logo {
+	margin: 0px 20px;
+	display: flex;
+	line-height: 1.5;
+	width: 200px;
+	height: 120px;
+	background-color: aqua;
+}
+
+.svg {
+	width: 50px;
+	height: 50px;
+}
+
+.derechos {
+
+
+	line-height: 1.5;
+
+	width: 500px;
+	height: 120px;
+	text-align: center;
+
+}
+
+.iconos {
+
+
+
+	line-height: 1.5;
+	font-size: 50PX;
+	text-align: right;
+
+	width: 305px;
+	height: 120px;
+}
+
+.clockdate-wrapper {
+    background-color: #333;
+    padding:25px;
+    max-width:350px;
+    width:100%;
+    text-align:center;
+    border-radius:5px;
+    margin:0 auto;
+    margin-top:15%;
+}
+#clock{
+    background-color:#333;
+    font-family: sans-serif;
+    font-size:47px;
+    text-shadow:0px 0px 1px #fff;
+    color:#fff;
+}
+#clock span {
+    color:#888;
+    text-shadow:0px 0px 1px #333;
+    font-size:30px;
+    position:relative;
+    top:-27px;
+    left:-10px;
+}
+#date {
+    letter-spacing:10px;
+    font-size:14px;
+    font-family:arial,sans-serif;
+    color:#fff;
+}
+
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+    right:0;
+
+    top:100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
